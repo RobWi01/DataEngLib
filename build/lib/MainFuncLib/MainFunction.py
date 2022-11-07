@@ -136,7 +136,7 @@ def aggregate_raw_data_tables(engine, currency_pairs):
                 pass
 
 
-def main(currency_pairs):
+def mainFunc(currency_pairs):
     """
     This main function repeatedly calls the polygon api every 1 seconds for 24 hours and stores the results. Every 6
     minutes the data gets aggregated, stored in the aggregate table, and the raw data gets deleted.
