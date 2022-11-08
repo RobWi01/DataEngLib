@@ -7,11 +7,10 @@ pip install MainFuncLib==0.1.1
 ```
 
 ### Get started
-How to use this library in Max's code:
+Make sure version==0.2.11 of Polygon-api-client is installed, code will not work with later versions. Example of how to use this library in Max's code, delete main() in Max's and replace with the library:
 
 ```Python
 from MainFuncLib import mainFunc
-
 
 # Example with 2 currency pairs
 currency_pairs = [["AUD", "USD", [], Portfolio.Portfolio("AUD", "USD")],
