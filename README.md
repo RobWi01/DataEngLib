@@ -3,7 +3,7 @@ This library is created for the first homework of MG 8411 Data Engineering. The 
 
 ### Installation
 ```
-pip install MainFuncLib==0.1.4
+pip install MainFuncLib==0.1.5
 ```
 
 ### Get started
