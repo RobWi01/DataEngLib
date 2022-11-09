@@ -3,11 +3,11 @@ This library is created for the first homework of MG 8411 Data Engineering. The 
 
 ### Installation
 ```
-pip install MainFuncLib==0.1.1
+pip install MainFuncLib==0.1.2
 ```
 
 ### Get started
-Make sure version==0.2.11 of Polygon-api-client is installed, code will not work with later versions. Example of how to use this library in Max's code, delete main() in Max's and replace with the library:
+Make sure version==0.2.11 of Polygon-api-client is installed, code will not work with later versions. Example of how to use this library in Max's code, delete main() in Max's code and replace with the library:
 
 ```Python
 from MainFuncLib import mainFunc
