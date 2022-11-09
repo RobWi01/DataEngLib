@@ -3,7 +3,7 @@ This library is created for the first homework of MG 8411 Data Engineering. The 
 
 ### Installation
 ```
-pip install MainFuncLib==0.1.2
+pip install MainFuncLib==0.1.4
 ```
 
 ### Get started
@@ -13,8 +13,8 @@ Make sure version==0.2.11 of Polygon-api-client is installed, code will not work
 from MainFuncLib import mainFunc
 
 # Example with 2 currency pairs
-currency_pairs = [["AUD", "USD", [], Portfolio.Portfolio("AUD", "USD")],
-                  ["GBP", "EUR", [], Portfolio.Portfolio("GBP", "EUR")]]
+currency_pairs = [["AUD", "USD", [], portfolio("AUD", "USD")],
+                  ["GBP", "EUR", [], portfolio("GBP", "EUR")]]
 
 mainFunc(currency_pairs)
 ```
